@@ -1,0 +1,155 @@
+$date
+	Thu Jun 18 02:59:56 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module low_power_alu_tb $end
+$var wire 1 ! zero_flag $end
+$var wire 8 " result [7:0] $end
+$var wire 1 # overflow_flag $end
+$var wire 1 $ negative_flag $end
+$var wire 1 % carry_flag $end
+$var parameter 32 & WIDTH $end
+$var reg 8 ' A [7:0] $end
+$var reg 8 ( B [7:0] $end
+$var reg 1 ) enable $end
+$var reg 4 * opcode [3:0] $end
+$scope module DUT $end
+$var wire 8 + A [7:0] $end
+$var wire 8 , B [7:0] $end
+$var wire 1 ) enable $end
+$var wire 4 - opcode [3:0] $end
+$var parameter 32 . WIDTH $end
+$var reg 1 % carry_flag $end
+$var reg 1 $ negative_flag $end
+$var reg 1 # overflow_flag $end
+$var reg 8 / result [7:0] $end
+$var reg 9 0 temp [8:0] $end
+$var reg 1 ! zero_flag $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 .
+b1000 &
+$end
+#0
+$dumpvars
+b1111 0
+b1111 /
+b0 -
+b101 ,
+b1010 +
+b0 *
+1)
+b101 (
+b1010 '
+0%
+0$
+0#
+b1111 "
+0!
+$end
+#10000
+b1100 "
+b1100 /
+b1 *
+b1 -
+b1000 (
+b1000 ,
+b10100 '
+b10100 +
+#20000
+1!
+b0 "
+b0 /
+b10 *
+b10 -
+b1111 (
+b1111 ,
+b11110000 '
+b11110000 +
+#30000
+1$
+0!
+b11111111 "
+b11111111 /
+b11 *
+b11 -
+#40000
+b11111111 "
+b11111111 /
+b100 *
+b100 -
+#50000
+0$
+b1010101 "
+b1010101 /
+b101 *
+b101 -
+b10101010 '
+b10101010 +
+#60000
+b11110 "
+b11110 /
+b110 *
+b110 -
+b1111 '
+b1111 +
+#70000
+b1111000 "
+b1111000 /
+b111 *
+b111 -
+b11110000 '
+b11110000 +
+#80000
+b11010 "
+b11010 /
+b1000 *
+b1000 -
+b11001 '
+b11001 +
+#90000
+b11000 "
+b11000 /
+b1001 *
+b1001 -
+#100000
+b1 "
+b1 /
+b1010 *
+b1010 -
+b1010 (
+b1010 ,
+b11110 '
+b11110 +
+#110000
+b10 "
+b10 /
+b10100 (
+b10100 ,
+b101 '
+b101 +
+#120000
+1!
+b0 "
+b0 /
+b1111 (
+b1111 ,
+b1111 '
+b1111 +
+#130000
+b0 *
+b0 -
+b110010 (
+b110010 ,
+b1100100 '
+b1100100 +
+0)
+#140000
