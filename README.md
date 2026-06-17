@@ -164,24 +164,8 @@ Low-Power-ALU-Verilog/
 ├── simulation/
 │   └── simulation_output.txt
 │
-├── waveforms/
-│   └── alu_waveform.png
-│
-├── reports/
-│   ├── synthesis_report.txt
-│   ├── utilization_report.txt
-│   └── power_report.txt
-│
-├── images/
-│   ├── architecture_diagram.png
-│   └── simulation_result.png
-│
-├── docs/
-│   └── project_report.pdf
-│
 ├── README.md
-│
-└── .gitignore
+
 ```
 
 
